@@ -1,0 +1,136 @@
+{
+  "title": "Monthly Volunteer Report // Rapport mensuel du bénévolat",
+  "subtitle": "Please complete this form to provide updates on your volunteer experience. Your responses help us track services, support you in your role, and ensure client needs are met!Merci de remplir ce formulaire concernant votre expérience de bénévolat. Vos réponses nous aident à suivre les services fournis, à vous soutenir dans votre rôle et à assurer que les besoins des bénéficiaires sont satisfaits !",
+  "submitLabel": "Submit",
+  "description": "monthly volunteer report",
+  "fields": [
+    {
+      "id": "name",
+      "label": "Name / Nom",
+      "type": "free-full",
+      "required": true
+    },
+    {
+      "id": "email",
+      "label": "Email / Courriel",
+      "type": "email",
+      "required": true
+    },
+    {
+      "id": "volunteer-frequency",
+      "label": "How often are you currently volunteering? // Quelle est la fréquence à laquelle vous faites actuellement du bénévolat ?",
+      "type": "radio",
+      "required": true,
+      "options": [
+        {
+          "value": "weekly",
+          "label": "Weekly (Matched with a client) / Chaque semaine (jumelage avec un client)"
+        },
+        {
+          "value": "biweekly",
+          "label": "Biweekly (Matched with a client) / Toutes les deux semaines (jumelage avec un client)"
+        },
+        {
+          "value": "on-demand",
+          "label": "On-demand (As needed) / À la demande (selon les besoins)"
+        },
+        {
+          "value": "both",
+          "label": "Both / Les deux"
+        }
+      ]
+    },
+    {
+      "id": "total-hours",
+      "label": "Total Hours Volunteered for the previous month // Nombre total d'heures de bénévolat effectuées au cours du mois précédent",
+      "type": "free-full",
+      "required": true
+    },
+    {
+      "id": "matched-feedback",
+      "label": "If matched, how is it going? // Si vous avez été jumelé, comment cela se passe-t-il ? Do you have any feedback, questions, comments, or concerns? Write N/A if you are not currently matched.",
+      "type": "free-full",
+      "required": true
+    },
+    {
+      "id": "on-demand-feedback",
+      "label": "If you are doing on-demand services, how has that experience been for you? // Si vous proposez des services à la demande, comment avez-vous trouvé cette expérience ? Do you have any feedback, questions, comments, or concerns? Write N/A if this question does not apply.",
+      "type": "free-full",
+      "required": true
+    },
+    {
+      "id": "upcoming-absence",
+      "label": "Do you plan on being away in the near future or coming months? (e.g. vacation, extended time off)? If so, please let us know the dates. If you will be away, please ensure your client is informed in advance. For weekly shopping, please also let EBM know if the client would like a replacement volunteer.",
+      "type": "free-full",
+      "required": false
+    },
+    {
+      "id": "other-changes",
+      "label": "Are there any other changes we should be aware of? (e.g. change in visiting day or frequency, updated availability, change in address, phone number, etc)",
+      "type": "free-full",
+      "required": false
+    },
+    {
+      "id": "anything-else",
+      "label": "Anything else you'd like to share or ask? Is there something we can do to improve your experience? Are there any 'Café Exchange' workshop topics that might be of interest to you?",
+      "type": "free-full",
+      "required": false
+    }
+  ],
+  "optionSets": {
+    "provinces": [
+      {
+        "value": "AB",
+        "label": "AB – Alberta"
+      },
+      {
+        "value": "BC",
+        "label": "BC – British Columbia"
+      },
+      {
+        "value": "MB",
+        "label": "MB – Manitoba"
+      },
+      {
+        "value": "NB",
+        "label": "NB – New Brunswick"
+      },
+      {
+        "value": "NL",
+        "label": "NL – Newfoundland & Labrador"
+      },
+      {
+        "value": "NS",
+        "label": "NS – Nova Scotia"
+      },
+      {
+        "value": "NT",
+        "label": "NT – Northwest Territories"
+      },
+      {
+        "value": "NU",
+        "label": "NU – Nunavut"
+      },
+      {
+        "value": "ON",
+        "label": "ON – Ontario"
+      },
+      {
+        "value": "PE",
+        "label": "PE – Prince Edward Island"
+      },
+      {
+        "value": "QC",
+        "label": "QC – Québec"
+      },
+      {
+        "value": "SK",
+        "label": "SK – Saskatchewan"
+      },
+      {
+        "value": "YT",
+        "label": "YT – Yukon"
+      }
+    ]
+  }
+}
