@@ -43,7 +43,7 @@
     {
       "id": "total-hours",
       "label": "Total Hours Volunteered for the previous month // Nombre total d'heures de bénévolat effectuées au cours du mois précédent",
-      "type": "free-full",
+      "type": "numeric",
       "required": true
     },
     {
