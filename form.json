@@ -48,21 +48,62 @@
     },
     {
       "id": "matched-feedback",
-      "label": "If matched, how is it going? // Si vous avez été jumelé, comment cela se passe-t-il ? Do you have any feedback, questions, comments, or concerns? Write N/A if you are not currently matched.",
-      "type": "free-full",
+      "label": "If matched, how is it going? // Si vous avez été jumelé, comment cela se passe-t-il ?  Write N/A if you are not currently matched.",
+      "type": "numeric",
       "required": true
     },
     {
       "id": "on-demand-feedback",
-      "label": "If you are doing on-demand services, how has that experience been for you? // Si vous proposez des services à la demande, comment avez-vous trouvé cette expérience ? Do you have any feedback, questions, comments, or concerns? Write N/A if this question does not apply.",
+      "label": "If you are doing on-demand services, how has that experience been for you? // Si vous proposez des services à la demande, comment avez-vous trouvé cette expérience ?",
+      "type": "radio",
+      "required": true,
+      "options": [
+        {
+          "value": "great-experience",
+          "label": "Great experience",
+          "required": false
+        },
+        {
+          "value": "good-experience",
+          "label": "Good Experience",
+          "required": false
+        },
+        {
+          "value": "bad-experience",
+          "label": "Bad Experience",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "do-you-have-any-feedback-questions-comments-or-concerns-regardless-if-you-are-matched-or-not-mv1glhw4",
+      "label": "Do you have any feedback, questions, comments, or concerns, regardless if you are matched or not?",
       "type": "free-full",
       "required": true
     },
     {
       "id": "upcoming-absence",
-      "label": "Do you plan on being away in the near future or coming months? (e.g. vacation, extended time off)? If so, please let us know the dates. If you will be away, please ensure your client is informed in advance. For weekly shopping, please also let EBM know if the client would like a replacement volunteer.",
+      "label": "Do you plan on being away in the near future or coming months  (e.g. vacation, extended time off)?",
+      "type": "radio",
+      "required": false,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes",
+          "required": false
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "e-g-vacation-extended-time-off-if-so-please-let-us-know-the-dates-if-you-will-be-away-please-ensure-your-client-is-informed-in-advance-for-weekly-shopping-please-also-let-ebm-know-if-the-client-would-like-a-replacement-volunteer-mv1gotf9",
+      "label": "If so, please let us know the dates. If you will be away, please ensure your client is informed in advance. For weekly shopping, please also let EBM know if the client would like a replacement volunteer.",
       "type": "free-full",
-      "required": false
+      "required": true
     },
     {
       "id": "other-changes",
