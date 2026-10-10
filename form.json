@@ -48,29 +48,23 @@
     },
     {
       "id": "matched-feedback",
-      "label": "If matched, how is it going? // Si vous avez été jumelé, comment cela se passe-t-il ?  Write N/A if you are not currently matched.",
-      "type": "numeric",
-      "required": true
-    },
-    {
-      "id": "on-demand-feedback",
-      "label": "If you are doing on-demand services, how has that experience been for you? // Si vous proposez des services à la demande, comment avez-vous trouvé cette expérience ?",
+      "label": "If matched or on demand, how is it going? // Si vous avez été jumelé, comment cela se passe-t-il ?  Write N/A if you are not currently matched.",
       "type": "radio",
       "required": true,
       "options": [
         {
-          "value": "great-experience",
-          "label": "Great experience",
+          "value": "great",
+          "label": "Great",
           "required": false
         },
         {
-          "value": "good-experience",
-          "label": "Good Experience",
+          "value": "okay",
+          "label": "Okay",
           "required": false
         },
         {
-          "value": "bad-experience",
-          "label": "Bad Experience",
+          "value": "poorly",
+          "label": "Poorly",
           "required": false
         }
       ]
