@@ -97,7 +97,11 @@
       "id": "e-g-vacation-extended-time-off-if-so-please-let-us-know-the-dates-if-you-will-be-away-please-ensure-your-client-is-informed-in-advance-for-weekly-shopping-please-also-let-ebm-know-if-the-client-would-like-a-replacement-volunteer-mv1gotf9",
       "label": "If so, please let us know the dates. If you will be away, please ensure your client is informed in advance. For weekly shopping, please also let EBM know if the client would like a replacement volunteer.",
       "type": "date-range",
-      "required": false
+      "required": false,
+      "showIf": {
+        "field": "upcoming-absence",
+        "value": "Yes"
+      }
     },
     {
       "id": "other-changes",
